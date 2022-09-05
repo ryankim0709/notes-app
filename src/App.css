@@ -30,18 +30,22 @@
 .note-obj {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
   background-color: lightgrey;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 100%;
+  justify-content: space-around;
   margin-bottom: 10px;
 }
 
-.single-text {
-  width: 50%;
+.infoContainer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+}
+
+.largeContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-evenly;
 }
